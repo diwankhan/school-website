@@ -1,0 +1,355 @@
+
+body{
+	padding:0; margin:0; font-family:'MuseoModerno', cursive;}
+
+.nav{
+    background:linear-gradient(to bottom, #00ff99 0%, #006699 100%);
+    padding:0;margin:0;height:80px;
+}
+.navbar-brand img{
+    width:60px;height:60px;padding-top:10%;
+    animation-name: brand;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:ease-out;
+
+}
+@keyframes brand{
+	to {
+		transform: rotate(360deg);
+		 padding: 0;
+
+	}
+
+}
+.nav-link{
+   color:white;font-size:20px;text-transform:uppercase;
+   padding-top:28px;font-weight:bold;
+}
+.nav-item{
+text-align:center;padding-left:50px;
+}
+.active{
+	color: black;
+}
+
+
+.second{
+width:100%;height:500px;
+}
+
+.contact{
+     padding-left:145px;
+}
+.nav-link:hover{
+	color: black;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  transform: rotate(5deg);
+}
+
+.nursery{
+	width: 100%;height:520px;background-color:#F5F5F5;
+}
+.nursery h1{
+	font-size:50px;padding-top:35px;
+}
+.paragraph{
+	padding-right:40px;padding-top:40px;padding-bottom:40px;
+}
+.nursery img{
+	padding-top:40px;padding-left:40px;
+}
+.paragraph h3{
+	color:darkcyan;
+}
+.management{
+	width:100%;height:600px;
+}
+.management h1{
+	font-size:50px;padding-top:35px;
+}
+.para{
+	padding-top:30px;padding-left:45px;
+}
+.management img{
+	padding-right:60px;padding-top:40px;padding-bottom:55px;
+}
+.para h3{
+	color:darkcyan;
+}
+.management ul{
+	list-style: none;
+}
+.centered {
+  position:absolute;transform:translate(-50%, -50%);
+  top:50%;left:50%;color:black;letter-spacing:2px;
+}
+.quote{
+	padding:0;margin:0;height:400px;position:relative;
+}
+.quote img{
+	opacity: 0.8;
+}
+.director{
+	text-align: right;
+}
+.gallery h1{
+	text-align:center;letter-spacing:1px;font-size:50px;
+	padding-top:160px;padding-bottom:60px;
+}
+.gallery img{
+	width:350px;height:240px;
+	box-shadow: 2px 2px 2px 0.4px gray;
+	transition: 1s;
+    
+
+}
+.gallery img:hover{
+	width: 380px; height: 300px;
+	box-shadow: -10px 10px 10px black;
+
+}
+
+
+.d{
+	padding-left: 20px;
+}
+.d img{
+	width:110px;height:85px;padding:2.5px;
+}
+.x{
+	padding-right:44px;
+}
+.d h1{
+	padding-top:50px;
+}
+.d p{
+	padding-top:20px;
+}
+.details, .detail{
+	background-color: #009966;
+}
+
+.y img{
+	padding-right:6px;
+}
+.bottom{
+	background-color: #000033;
+
+}
+
+.fa-facebook:hover {
+  background: #3B5998;color:white;
+}
+
+.fa-twitter:hover {
+  background:#55ACEE;color:white;
+
+  
+}
+
+
+.fa-google:hover {
+  background:#dd4b39; color:white;
+  transition: all 1s;
+ 
+}
+
+.fa-linkedin:hover{
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  width:150px;
+  height:150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:50%;
+  font-size: 30px;
+  padding-top:50px;
+  color: black;
+  background-color: white;
+
+
+}
+.fa:hover{
+	text-decoration: none;
+
+
+
+}
+.a a{
+	font-size:60px;
+}
+.a{
+	padding-top:7%;
+	padding-left:25%;
+	padding-bottom:2%;
+}
+.foot{
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 10px;
+	padding-top:25px;
+}
+.foot a{
+	color: green;
+	text-decoration: underline;
+}
+.foot a:hover{
+	color: white;
+
+}
+.a a:hover{
+	font-size: 80px;
+	text-align: center;
+}
+.about-top{
+	width: 100%;
+	height:300px;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+.about-top img{
+	width: 100%;
+	height: 300px;
+	opacity: 0.3;
+}
+.about-top h1{
+    color: white;
+    padding-bottom:50%;
+}
+.management video{
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 0px;
+}
+.boy h1{
+	text-align: center;
+	color:#000066;
+}
+.boy h2{
+	color: #339933;
+}
+.boy img{
+	width: 550px;
+	height:350px;
+}
+.boy, .baby{
+	 background: linear-gradient(to bottom, #ffffff 0%, #66ffcc 100%);
+}
+
+.per{
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.blue{
+	width:270px;
+	height:270px;
+	background: linear-gradient(to bottom, #339966 0%, #000066 100%);
+	border-radius:270px;
+}
+.blue h1{
+	padding-top:30px;
+}
+.per h1{
+	color: #000066;
+	font-weight: bold;
+	font-size: 50px;
+}
+.blue:hover{
+	background-color: red;
+}
+.col-md-3{
+	padding-top: 40px;
+}
+.staff{
+	background-color:#F0F0F0;
+}
+.col-md-3{
+	background-color: white;
+	box-shadow:30px 0px #F0F0F0;
+	padding-top: 0px;
+}
+.staff1{
+	background-color:#F0F0F0;
+	padding-bottom:70px;
+}
+.staff2{
+	text-align: center;
+	padding:70px;
+	color: #000066;
+	font-size: 50px;
+}
+.infra{
+	padding-top:25%;
+}
+.infra1 h1{
+	text-align: center;
+	font-size: 50px;
+	color: #000066;
+	margin:80px 0px 60px;
+}
+.infra1 img{
+	width:100%;
+	height: 100%;
+	padding: 0px 0px 80px;
+}
+
+ #map {
+        height: 600px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+ input[type=text]{
+  width:350px;
+  height:45px;
+  margin-bottom: 20px;
+  color: gray;
+  
+}
+
+.text{
+	width:730px;
+}
+
+.email{
+	margin-left:25px;
+}
+.head h3{
+	margin:50px 0px;
+	color: green;
+}
+.head p{
+	color: gray;
+}
+
+input[type=submit]{
+  width:145px;
+  color:white;
+  margin:15px 0px 60px;
+  height: 50px;
+  border-radius:0px;
+ background-color: green;
+ border:0px;
+  
+}
+input[type=submit]:hover{
+	background-color: #000066;
+}
+.cont h1{
+	text-align: center;
+	color: #000066;
+	margin: 50px 0px;
+	font-size: 50px;
+}
+
